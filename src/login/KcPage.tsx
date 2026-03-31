@@ -21,7 +21,6 @@ export default function KcPage(props: { kcContext: KcContext }) {
 
     // Set title name
     useEffect(() => {
-        console.log("SETTING TITLE2!");
         const interval = setInterval(() => {
             document.title = "Log in to NoOrg";
         }, 100);
