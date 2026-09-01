@@ -7,7 +7,14 @@ export default defineConfig({
     plugins: [
         react(),
         keycloakify({
-            accountThemeImplementation: "none"
+            accountThemeImplementation: "none",
+            keycloakVersionTargets: {
+                "all-other-versions": "mctheme.jar",
+                "22-to-25": false
+            }
         })
     ]
 });
+
+
+ 
