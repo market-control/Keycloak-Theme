@@ -8,6 +8,8 @@ import "./main.css";
 import DefaultPage from "keycloakify/login/DefaultPage";
 import Template from "keycloakify/login/Template";
 
+const siteTitle = import.meta.env.VITE_SITE_TITLE ?? "MC";
+
 const UserProfileFormFields = lazy(
     () => import("keycloakify/login/UserProfileFormFields")
 );
@@ -22,7 +24,8 @@ export default function KcPage(props: { kcContext: KcContext }) {
     // Set title name
     useEffect(() => {
         const interval = setInterval(() => {
-            document.title = "Log in to NoOrg";
+            //document.title = "Log in to NoOrg";
+            document.title = `Log in to ${siteTitle}`;
         }, 100);
 
         return () => clearInterval(interval);

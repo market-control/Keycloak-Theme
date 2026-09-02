@@ -1,0 +1,3 @@
+:root {
+    --pf-global--primary-color--100: __MC_COLOR__;
+}

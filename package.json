@@ -12,7 +12,9 @@
         "build": "tsc && vite build",
         "build-keycloak-theme": "npm run build && keycloakify build",
         "storybook": "storybook dev -p 6006",
-        "format": "prettier . --write"
+        "format": "prettier . --write",
+        "set-client-config": "node scripts/apply-client-config.mjs",
+        "build:client": "npm run set-client-config && npm run build-keycloak-theme"
     },
     "license": "MIT",
     "keywords": [],

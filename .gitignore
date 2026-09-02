@@ -58,3 +58,8 @@ jspm_packages
 
 # build output of `jsx-email`
 /.rendered
+
+# MC client custom features
+client-config/
+src/login/main.css
+src/login/assets/background.png
