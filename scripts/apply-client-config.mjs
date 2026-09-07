@@ -5,7 +5,7 @@ const primaryColor = process.env.PRIMARY_COLOR;
 const backgroundPath = process.env.BACKGROUND_IMAGE_PATH;
 
 if (!primaryColor) {
-    console.error('Falta PRIMARY_COLOR');
+    console.error('Missing PRIMARY_COLOR');
     process.exit(1);
 }
 
