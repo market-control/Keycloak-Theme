@@ -1,3 +1,66 @@
 :root {
     --pf-global--primary-color--100: __PRIMARY_COLOR__;
 }
+
+#root {
+    height: 100%;
+}
+
+.kcBodyClass {
+    background: url(./assets/background.png) no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+
+#kc-page-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.kcLoginClass {
+    padding-top: 100px;
+}
+
+.kcHeaderWrapperClass {
+    padding-top: 0;
+}
+
+#kc-header-wrapper {
+    padding-top: 0;
+    display: none;
+}
+
+.kcHeaderClass {
+    float: left;
+    align-self: flex-start;
+    padding-top: 0;
+}
+
+.kcButtonClass {
+    border-radius: 10px;
+}
+
+.kcFormCardClass {
+    width: 100%;
+    max-width: 400px;
+    margin: 0;
+    border-radius: 16px;
+    margin: auto;
+}
+
+#kc-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.kc-logo-text {
+    display: none;
+}
+
+#kc-info {
+    padding: 10px;
+}
+
+#kc-info-wrapper {
+    border-radius: 10px;
+}
